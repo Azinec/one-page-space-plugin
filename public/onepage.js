@@ -39,13 +39,13 @@
     return data;
   };
 
-  const prepareElementsToAddToDom = (data) => {
-    if (!data && !data.foldersAndFiles && !data.files.length) return [];
-
-    const preparedData = prepareJSON(data);
-
-    return preparedData.foldersAndFiles.folders.map(folder => {
+  /**
+   * Create main sections with content. In our case with IMG only;
+   */
+  const getFoldersObjects = folders => {
+    return folders.map(folder => {
       const folderElement = document.createElement("div");
+
       folder.files.forEach(file => {
         const img = document.createElement('img');
         img.src = PICTURE_CDN + '/' + file.bucketRegionPrefix + '/' + file.publicURL;
@@ -53,7 +53,15 @@
       });
       return folderElement;
     });
+  };
 
+  const prepareElementsToAddToDom = (data) => {
+    if (!data && !data.foldersAndFiles &&
+      !data.foldersAndFiles.folders &&
+      !data.files.length) return [];
+
+    const preparedData = prepareJSON(data);
+    return getFoldersObjects(preparedData.foldersAndFiles.folders);
   };
 
   const request = new Request(`${CDN_HOST}/${ONEPAGE_PROJECT_ID}`);

@@ -18,6 +18,29 @@
   const ONEPAGE_CONTAINER = window.ONEPAGE_CONTAINER;
   const ONEPAGE_PROJECT_ID = window.ONEPAGE_ID;
 
+  /**
+   * Styles
+   */
+
+  const STYLES = `
+    .image {
+      width: 100%;
+      height: auto;
+    }
+    .imgContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-flow: nowrap;
+    }
+    .folderImage {
+      object-fit: cover;
+      width: 100%;
+    }
+    .image:not(:last-child){
+      margin-right: 20px;
+    }
+    `;
 
   /**
    *  Helper function for preparing JSON before render parse;
@@ -44,13 +67,40 @@
    */
   const getFoldersObjects = folders => {
     return folders.map(folder => {
+      console.log('folder', folder);
       const folderElement = document.createElement("div");
+      folderElement.className = 'folder';
+
+
+      const imgContainer = document.createElement("div");
+      imgContainer.className = 'imgContainer';
 
       folder.files.forEach(file => {
+        const imageUrl = PICTURE_CDN + '/' + file.bucketRegionPrefix + '/' + file.publicURL;
+        const image = document.createElement("div");
+        image.className = 'image';
+        //fileType
         const img = document.createElement('img');
-        img.src = PICTURE_CDN + '/' + file.bucketRegionPrefix + '/' + file.publicURL;
-        folderElement.appendChild(img);
+        img.className = 'folderImage';
+        img.src = imageUrl
+        image.appendChild(img);
+        imgContainer.appendChild(image);
       });
+
+
+      folderElement.appendChild(imgContainer);
+      const descriptionElement = document.createElement("p");
+      descriptionElement.className = 'folderDescription';
+      descriptionElement.innerText = folder.description;
+
+      folderElement.appendChild(descriptionElement);
+
+      const titleElement = document.createElement("p");
+      titleElement.className = 'folderTitle';
+      titleElement.innerText = folder.title;
+
+      folderElement.appendChild(titleElement);
+
       return folderElement;
     });
   };
@@ -75,10 +125,13 @@
       }
     })
     .then(response => {
-      const div = document.getElementById(ONEPAGE_CONTAINER.replace('#', ''));
+      const rootContainer = document.getElementById(ONEPAGE_CONTAINER.replace('#', ''));
+      const styleSheet = document.createElement('style');
+      styleSheet.appendChild(document.createTextNode(STYLES));
+      document.head.appendChild(styleSheet);
       const elements = prepareElementsToAddToDom(response);
       elements.forEach(el => {
-        div.appendChild(el);
+        rootContainer.appendChild(el);
       });
     }).catch(error => {
     console.error(error);

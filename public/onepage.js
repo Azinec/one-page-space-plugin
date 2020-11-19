@@ -38,8 +38,6 @@
       text-transform: uppercase;
     }
     p.one-page-plugin-folderDescription {
-      font-family: revert;
-      font-size: revert;
       margin-top: 10px;
       margin-bottom: 5px;
     }`;

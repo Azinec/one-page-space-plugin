@@ -10,7 +10,7 @@ Use:
   <head>
 	<meta charset="UTF-8">
 	<title>Onepage JS Plugin</title>
-	<script src="//onepage.space/onepage.js"></script>
+	<script src="https://onepage.space/onepage.js"></script>
   </head>
   <body>
 	... content ...
@@ -35,7 +35,7 @@ Yu can modify those parameters by method init like:
   <head>
 	<meta charset="UTF-8">
 	<title>Onepage JS Plugin</title>
-	<script src="//onepage.space/onepage.js"></script>
+	<script src="https:////onepage.space/onepage.js"></script>
   </head>
   <body>
 	... content ...
@@ -49,3 +49,9 @@ Yu can modify those parameters by method init like:
   </html>
 
 ```
+
+For create minified build you should run:
+```
+npm run compile
+```
+After this you can find minified onepage.min.js file in dist folder;

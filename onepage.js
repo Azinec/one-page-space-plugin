@@ -6,25 +6,22 @@
    * for example OnePage.init({PICTURE_CDN: 'cnd.onepage.com', CDN_HOST: 'cnd.onepage.com'});
    */
 
-
   /**
-   *
    * PICTURE_CDN - first part picture path (got from exist JSON example)
-   *
-   *
    * CDN_HOST - JSON source;
-   *
    */
   let onePageConfig = {
     PICTURE_CDN: 'https://cdn.onepage.space',
     CDN_HOST: 'http://localhost:4000',
   };
 
+  const ONE_PAGE_PLUGIN_MESSAGE_PREFIX = 'OnePage plugin';
+
   /**
    * Styles
    */
 
-  const STYLES = `
+  const ONE_PAGE_PLUGIN_STYLES = `
     .one-page-plugin-image {
       width: 100%;
       height: auto;
@@ -133,7 +130,7 @@
 
   const appendStyles = () => {
     const styleSheet = document.createElement('style');
-    styleSheet.appendChild(document.createTextNode(STYLES));
+    styleSheet.appendChild(document.createTextNode(ONE_PAGE_PLUGIN_STYLES));
     document.head.appendChild(styleSheet);
   };
 
@@ -155,11 +152,11 @@
             const response = JSON.parse(this.responseText);
             callback(response);
           } catch (pErr) {
-            console.error('Error parsing JSON data:', pErr);
+            console.error(`${ONE_PAGE_PLUGIN_MESSAGE_PREFIX}: Error parsing JSON data:`, pErr);
             callback('NotSet');
           }
         } else {
-          console.error('Error getting JSON data');
+          console.error(`${ONE_PAGE_PLUGIN_MESSAGE_PREFIX}: Error getting JSON data`);
           callback('NotSet');
         }
       }
@@ -178,7 +175,7 @@
     const rootContainer = document.getElementById(rootContainerId.replace('#', ''));
 
     if (!rootContainer) {
-      console.error('OnePage plugin error: Cannot find root element');
+      console.error(`${ONE_PAGE_PLUGIN_MESSAGE_PREFIX}: Cannot find root element`);
       return;
     }
 

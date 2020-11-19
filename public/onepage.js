@@ -16,28 +16,28 @@
    */
 
   const STYLES = `
-    .image {
+    .one-page-plugin-image {
       width: 100%;
       height: auto;
     }
-    .imgContainer {
+    .one-page-plugin-imgContainer {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-flow: nowrap;
     }
-    .folderImage {
+    .one-page-plugin-folderImage {
       object-fit: cover;
       width: 100%;
     }
-    .image:not(:last-child){
+    .one-page-plugin-image:not(:last-child){
       margin-right: 20px;
     }
-    p.folderTitle {
+    p.one-page-plugin-folderTitle {
       font-size: small;
       text-transform: uppercase;
     }
-    p.folderDescription {
+    p.one-page-plugin-folderDescription {
       font-family: revert;
       font-size: revert;
       margin-top: 10px;
@@ -66,10 +66,10 @@
 
   const createImageElement = (URL) => {
     const imageDiv = document.createElement("div");
-    imageDiv.className = 'image';
+    imageDiv.className = 'one-page-plugin-image';
 
     const img = document.createElement('img');
-    img.className = 'folderImage';
+    img.className = 'one-page-plugin-folderImage';
     img.src = URL;
     imageDiv.appendChild(img);
     return imageDiv;
@@ -81,11 +81,11 @@
   const getFoldersObjects = folders => {
     return folders.map(folder => {
       const folderElement = document.createElement("div");
-      folderElement.className = 'folder';
+      folderElement.className = 'one-page-plugin-folder';
 
 
       const imgContainer = document.createElement("div");
-      imgContainer.className = 'imgContainer';
+      imgContainer.className = 'one-page-plugin-imgContainer';
 
       folder.files.forEach(file => {
         if (file.fileType !== 'image') return;
@@ -97,13 +97,13 @@
       folderElement.appendChild(imgContainer);
 
       const descriptionElement = document.createElement("p");
-      descriptionElement.className = 'folderDescription';
+      descriptionElement.className = 'one-page-plugin-folderDescription';
       descriptionElement.innerText = folder.description;
 
       folderElement.appendChild(descriptionElement);
 
       const titleElement = document.createElement("p");
-      titleElement.className = 'folderTitle';
+      titleElement.className = 'one-page-plugin-folderTitle';
       titleElement.innerText = folder.title;
 
       folderElement.appendChild(titleElement);
@@ -135,7 +135,6 @@
         if (this.status === 200) {
           // Success!
           try {
-            console.log(this.responseText);
             const response = JSON.parse(this.responseText);
             callback(response);
           } catch (pErr) {
@@ -152,7 +151,6 @@
   };
 
   const render = (projectId, rootContainerId) => {
-    console.log(onePageConfig);
     const rootContainer = document.getElementById(rootContainerId.replace('#', ''));
 
     if (!rootContainer) {

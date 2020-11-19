@@ -20,24 +20,24 @@
       width: 100%;
       height: auto;
     }
-    .one-page-plugin-imgContainer {
+    .one-page-plugin-img-container {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-flow: nowrap;
     }
-    .one-page-plugin-folderImage {
+    .one-page-plugin-folder-image {
       object-fit: cover;
       width: 100%;
     }
     .one-page-plugin-image:not(:last-child){
       margin-right: 20px;
     }
-    p.one-page-plugin-folderTitle {
+    p.one-page-plugin-folder-title {
       font-size: small;
       text-transform: uppercase;
     }
-    p.one-page-plugin-folderDescription {
+    p.one-page-plugin-folder-description {
       margin-top: 10px;
       margin-bottom: 5px;
     }`;
@@ -55,6 +55,10 @@
 
     data.foldersAndFiles.folders.forEach(folder => {
       folder.files.forEach(file => {
+        if (!imageObject[file.gid] ||
+          !imageObject[file.gid].children.length ||
+          !imageObject[file.gid].children[0].url) return;
+
         file.publicURL = imageObject[file.gid].children[0].url;
       })
     });
@@ -62,13 +66,13 @@
     return data;
   };
 
-  const createImageElement = (URL) => {
-    const imageDiv = document.createElement("div");
+  const createImageElement = (url) => {
+    const imageDiv = document.createElement('div');
     imageDiv.className = 'one-page-plugin-image';
 
     const img = document.createElement('img');
-    img.className = 'one-page-plugin-folderImage';
-    img.src = URL;
+    img.className = 'one-page-plugin-folder-image';
+    img.src = url;
     imageDiv.appendChild(img);
     return imageDiv;
   }
@@ -78,12 +82,11 @@
    */
   const getFoldersObjects = folders => {
     return folders.map(folder => {
-      const folderElement = document.createElement("div");
+      const folderElement = document.createElement('div');
       folderElement.className = 'one-page-plugin-folder';
 
-
-      const imgContainer = document.createElement("div");
-      imgContainer.className = 'one-page-plugin-imgContainer';
+      const imgContainer = document.createElement('div');
+      imgContainer.className = 'one-page-plugin-img-container';
 
       folder.files.forEach(file => {
         if (file.fileType !== 'image') return;
@@ -94,14 +97,14 @@
 
       folderElement.appendChild(imgContainer);
 
-      const descriptionElement = document.createElement("p");
-      descriptionElement.className = 'one-page-plugin-folderDescription';
+      const descriptionElement = document.createElement('p');
+      descriptionElement.className = 'one-page-plugin-folder-description';
       descriptionElement.innerText = folder.description;
 
       folderElement.appendChild(descriptionElement);
 
-      const titleElement = document.createElement("p");
-      titleElement.className = 'one-page-plugin-folderTitle';
+      const titleElement = document.createElement('p');
+      titleElement.className = 'one-page-plugin-folder-title';
       titleElement.innerText = folder.title;
 
       folderElement.appendChild(titleElement);
@@ -110,7 +113,7 @@
     });
   };
 
-  const prepareElementsToAddToDom = (data) => {
+  const prepareFolderAndFiles = (data) => {
     if (!data && !data.foldersAndFiles &&
       !data.foldersAndFiles.folders &&
       !data.files.length) return [];
@@ -125,6 +128,13 @@
     document.head.appendChild(styleSheet);
   };
 
+  const appendElements = (rootContainer, renderingData) => {
+    const elements = prepareFolderAndFiles(renderingData);
+    elements.forEach(el => {
+      rootContainer.appendChild(el);
+    });
+  }
+
   const loadContent = (projectId, callback) => {
     const xmlHttp = new XMLHttpRequest();
     xmlHttp.open('GET', encodeURI(`${onePageConfig.CDN_HOST}/${projectId}`), true);
@@ -136,12 +146,12 @@
             const response = JSON.parse(this.responseText);
             callback(response);
           } catch (pErr) {
-            console.error("Error parsing JSON data:", pErr);
-            callback("NotSet");
+            console.error('Error parsing JSON data:', pErr);
+            callback('NotSet');
           }
         } else {
-          console.error("Error getting JSON data");
-          callback("NotSet");
+          console.error('Error getting JSON data');
+          callback('NotSet');
         }
       }
     };
@@ -152,17 +162,14 @@
     const rootContainer = document.getElementById(rootContainerId.replace('#', ''));
 
     if (!rootContainer) {
-      console.error('Cannot find root element');
+      console.error('OnePage plugin error: Cannot find root element');
       return;
     }
 
     loadContent(projectId, (response) => {
       if (response === 'NotSet') return;
       appendStyles();
-      const elements = prepareElementsToAddToDom(response);
-      elements.forEach(el => {
-        rootContainer.appendChild(el);
-      });
+      appendElements(rootContainer, response);
     });
   };
 
@@ -171,7 +178,7 @@
    * @param configObj
    */
   const init = (configObj) => {
-    onePageConfig = Object.assign({...onePageConfig, ...configObj});
+    onePageConfig = Object.assign({ ...onePageConfig, ...configObj });
   };
 
   if (typeof (window.OnePage) === 'undefined') {

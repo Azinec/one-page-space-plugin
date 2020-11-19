@@ -1,22 +1,15 @@
-(function (window) {
+;(function (window) {
 
   /**
-   * TODO LIST:
-   * 1. Add correct error handling if project not exist or else;
-   * @type {string}
+   * OnePage CDN config;
+   * Can be changed by init method:
+   * for example OnePage.init({PICTURE_CDN: 'cnd.onepage.com', CDN_HOST: 'cnd.onepage.com'});
    */
 
-  /**
-   * OnePage CDN settings;
-   */
-  const PICTURE_CDN = 'https://cdn.onepage.space';
-  const CDN_HOST = 'http://localhost:4000';
-
-  /**
-   * OnePage render settings;
-   */
-  const ONEPAGE_CONTAINER = window.ONEPAGE_CONTAINER;
-  const ONEPAGE_PROJECT_ID = window.ONEPAGE_ID;
+  let onePageConfig = {
+    PICTURE_CDN: 'https://cdn.onepage.space',
+    CDN_HOST: 'http://localhost:4000',
+  };
 
   /**
    * Styles
@@ -71,6 +64,17 @@
     return data;
   };
 
+  const createImageElement = (URL) => {
+    const imageDiv = document.createElement("div");
+    imageDiv.className = 'image';
+
+    const img = document.createElement('img');
+    img.className = 'folderImage';
+    img.src = URL;
+    imageDiv.appendChild(img);
+    return imageDiv;
+  }
+
   /**
    * Create main sections with content. In our case with IMG only;
    */
@@ -84,18 +88,14 @@
       imgContainer.className = 'imgContainer';
 
       folder.files.forEach(file => {
-        const imageUrl = PICTURE_CDN + '/' + file.bucketRegionPrefix + '/' + file.publicURL;
-        const imageDiv = document.createElement("div");
-        imageDiv.className = 'image';
-        const img = document.createElement('img');
-        img.className = 'folderImage';
-        img.src = imageUrl
-        imageDiv.appendChild(img);
+        if (file.fileType !== 'image') return;
+        const imageUrl = onePageConfig.PICTURE_CDN + '/' + file.bucketRegionPrefix + '/' + file.publicURL;
+        const imageDiv = createImageElement(imageUrl);
         imgContainer.appendChild(imageDiv);
       });
 
-
       folderElement.appendChild(imgContainer);
+
       const descriptionElement = document.createElement("p");
       descriptionElement.className = 'folderDescription';
       descriptionElement.innerText = folder.description;
@@ -121,32 +121,67 @@
     return getFoldersObjects(preparedData.foldersAndFiles.folders);
   };
 
-  const render = () => {
-    const request = new Request(`${CDN_HOST}/${ONEPAGE_PROJECT_ID}`);
+  const appendStyles = () => {
+    const styleSheet = document.createElement('style');
+    styleSheet.appendChild(document.createTextNode(STYLES));
+    document.head.appendChild(styleSheet);
+  };
 
-    fetch(request)
-      .then(response => {
-        if (response.status === 200) {
-          return response.json();
+  const loadContent = (projectId, callback) => {
+    const xmlHttp = new XMLHttpRequest();
+    xmlHttp.open('GET', encodeURI(`${onePageConfig.CDN_HOST}/${projectId}`), true);
+    xmlHttp.onreadystatechange = function () {
+      if (this.readyState === 4) {
+        if (this.status === 200) {
+          // Success!
+          try {
+            console.log(this.responseText);
+            const response = JSON.parse(this.responseText);
+            callback(response);
+          } catch (pErr) {
+            console.error("Error parsing JSON data:", pErr);
+            callback("NotSet");
+          }
         } else {
-          console.error('Something went wrong with API call.');
+          console.error("Error getting JSON data");
+          callback("NotSet");
         }
-      })
-      .then(response => {
-        const rootContainer = document.getElementById(ONEPAGE_CONTAINER.replace('#', ''));
-        const styleSheet = document.createElement('style');
-        styleSheet.appendChild(document.createTextNode(STYLES));
-        document.head.appendChild(styleSheet);
-        const elements = prepareElementsToAddToDom(response);
-        elements.forEach(el => {
-          rootContainer.appendChild(el);
-        });
-      }).catch(error => {
-      console.error(error);
-    });
-  }
+      }
+    };
+    xmlHttp.send();
+  };
 
-  document.addEventListener('DOMContentLoaded', (event) => {
-    render();
-  })
+  const render = (projectId, rootContainerId) => {
+    console.log(onePageConfig);
+    const rootContainer = document.getElementById(rootContainerId.replace('#', ''));
+
+    if (!rootContainer) {
+      console.error('Cannot find root element');
+      return;
+    }
+
+    loadContent(projectId, (response) => {
+      if (response === 'NotSet') return;
+      appendStyles();
+      const elements = prepareElementsToAddToDom(response);
+      elements.forEach(el => {
+        rootContainer.appendChild(el);
+      });
+    });
+  };
+
+  /**
+   * Method for updating CDN and host config variables;
+   * @param configObj
+   */
+  const init = (configObj) => {
+    onePageConfig = Object.assign({...onePageConfig, ...configObj});
+  };
+
+  if (typeof (window.OnePage) === 'undefined') {
+    window.OnePage = {
+      render,
+      init,
+    }
+  }
 }(window));

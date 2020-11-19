@@ -40,7 +40,16 @@
     .image:not(:last-child){
       margin-right: 20px;
     }
-    `;
+    p.folderTitle {
+      font-size: small;
+      text-transform: uppercase;
+    }
+    p.folderDescription {
+      font-family: revert;
+      font-size: revert;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }`;
 
   /**
    *  Helper function for preparing JSON before render parse;
@@ -67,7 +76,6 @@
    */
   const getFoldersObjects = folders => {
     return folders.map(folder => {
-      console.log('folder', folder);
       const folderElement = document.createElement("div");
       folderElement.className = 'folder';
 
@@ -77,14 +85,13 @@
 
       folder.files.forEach(file => {
         const imageUrl = PICTURE_CDN + '/' + file.bucketRegionPrefix + '/' + file.publicURL;
-        const image = document.createElement("div");
-        image.className = 'image';
-        //fileType
+        const imageDiv = document.createElement("div");
+        imageDiv.className = 'image';
         const img = document.createElement('img');
         img.className = 'folderImage';
         img.src = imageUrl
-        image.appendChild(img);
-        imgContainer.appendChild(image);
+        imageDiv.appendChild(img);
+        imgContainer.appendChild(imageDiv);
       });
 
 
@@ -114,26 +121,32 @@
     return getFoldersObjects(preparedData.foldersAndFiles.folders);
   };
 
-  const request = new Request(`${CDN_HOST}/${ONEPAGE_PROJECT_ID}`);
+  const render = () => {
+    const request = new Request(`${CDN_HOST}/${ONEPAGE_PROJECT_ID}`);
 
-  fetch(request)
-    .then(response => {
-      if (response.status === 200) {
-        return response.json();
-      } else {
-        throw new Error('API ERROR');
-      }
-    })
-    .then(response => {
-      const rootContainer = document.getElementById(ONEPAGE_CONTAINER.replace('#', ''));
-      const styleSheet = document.createElement('style');
-      styleSheet.appendChild(document.createTextNode(STYLES));
-      document.head.appendChild(styleSheet);
-      const elements = prepareElementsToAddToDom(response);
-      elements.forEach(el => {
-        rootContainer.appendChild(el);
-      });
-    }).catch(error => {
-    console.error(error);
-  });
+    fetch(request)
+      .then(response => {
+        if (response.status === 200) {
+          return response.json();
+        } else {
+          console.error('Something went wrong with API call.');
+        }
+      })
+      .then(response => {
+        const rootContainer = document.getElementById(ONEPAGE_CONTAINER.replace('#', ''));
+        const styleSheet = document.createElement('style');
+        styleSheet.appendChild(document.createTextNode(STYLES));
+        document.head.appendChild(styleSheet);
+        const elements = prepareElementsToAddToDom(response);
+        elements.forEach(el => {
+          rootContainer.appendChild(el);
+        });
+      }).catch(error => {
+      console.error(error);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    render();
+  })
 }(window));

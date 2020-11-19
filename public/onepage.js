@@ -6,6 +6,15 @@
    * for example OnePage.init({PICTURE_CDN: 'cnd.onepage.com', CDN_HOST: 'cnd.onepage.com'});
    */
 
+
+  /**
+   *
+   * PICTURE_CDN - first part picture path (got from exist JSON example)
+   *
+   *
+   * CDN_HOST - JSON source;
+   *
+   */
   let onePageConfig = {
     PICTURE_CDN: 'https://cdn.onepage.space',
     CDN_HOST: 'http://localhost:4000',
@@ -158,6 +167,13 @@
     xmlHttp.send();
   };
 
+  /**
+   * Main method that called from page.
+   * Example OnePage.render("YEgYggA7NWje.json", "#onepage");
+   *
+   * @param projectId
+   * @param rootContainerId
+   */
   const render = (projectId, rootContainerId) => {
     const rootContainer = document.getElementById(rootContainerId.replace('#', ''));
 

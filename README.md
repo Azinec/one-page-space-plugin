@@ -35,7 +35,7 @@ You can modify those parameters by method init like:
   <head>
 	<meta charset="UTF-8">
 	<title>Onepage JS Plugin</title>
-	<script src="https:////onepage.space/onepage.js"></script>
+	<script src="https://onepage.space/onepage.js"></script>
   </head>
   <body>
 	... content ...

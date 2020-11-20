@@ -59,5 +59,4 @@ After this, you can find a minified onepage.min.js file in the dist folder;
 To test it locally, you can run the command
 ```
 $ npm run start
-$ npm run start
 ```

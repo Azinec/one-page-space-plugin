@@ -1,6 +1,6 @@
 # Onepage JS plugin
 
-For use plugin you should add onepage.js to your page;
+For using the plugin, you should add onepage.js to your page;
 
 Use:
 
@@ -28,7 +28,7 @@ Also you can modify plugin hosts settings like:
 - PICTURE_CDN
 - CDN_HOST
 
-Yu can modify those parameters by method init like:
+You can modify those parameters by method init like:
 ```JavaScript
 <!DOCTYPE html>
   <html lang="en">
@@ -50,8 +50,14 @@ Yu can modify those parameters by method init like:
 
 ```
 
-For create minified build you should run:
+To create a minified build, you should run:
 ```
-npm run compile
+$ npm run compile
 ```
-After this you can find minified onepage.min.js file in dist folder;
+After this, you can find a minified onepage.min.js file in the dist folder;
+
+To test it locally, you can run the command
+```
+$ npm run start
+$ npm run start
+```

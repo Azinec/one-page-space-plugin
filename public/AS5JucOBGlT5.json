@@ -1,0 +1,974 @@
+{
+  "project": {
+    "gid": "AS5JucOBGlT5",
+    "allowComments": true,
+    "allowDownload": true,
+    "settings": null,
+    "owner": {
+      "id": "355",
+      "role": "VIP"
+    }
+  },
+  "files": [
+    {
+      "gid": "kufnZq3FhW60UuTuTC6SENuC88c4IMnLw4cn1TWtTmWvXSp2Zz",
+      "url": "uploads/2020-11-20/5vDxTcfWXXuoCxf6BfIWcjBkFmQBZefew0LvHOG2N5agPjkbTn/fad1e4f7-e12f-48fd-ac83-9afa543a0e72.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "6sDwf9MdqwDuyZWC6xH8VSA9IGssczMVrd3FDnFtFj9ADUxkkA",
+          "url": "uploads/2020-11-20/5vDxTcfWXXuoCxf6BfIWcjBkFmQBZefew0LvHOG2N5agPjkbTn/938aa1ab-3332-4437-9016-86ab458a7784.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1350",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "bLb9Pq0Dc91XG2ZZQJzpGYmqewymwXaRCnuU3WsWdhf7yUCliA",
+        "url": "uploads/2020-11-20/5vDxTcfWXXuoCxf6BfIWcjBkFmQBZefew0LvHOG2N5agPjkbTn/65345cb6-1a21-47c4-b484-9a94886556ff-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "erJX1BL73iXBUGlffrCxPKPh7FzOcUAxbINxjStypn5tmUhMcS",
+      "url": "uploads/2020-11-20/6uM9pJTxyoKe0FN1avVVf5H8mYYXMCyEedtGafrPb55p5zLttT/8c849745-c270-41e4-b730-22cadb3d9cc0.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "CbHbh4ZLrREHgIBwy6uHKZJSNzcTQnyKsCrpJSz9xLtBi0vbYX",
+          "url": "uploads/2020-11-20/6uM9pJTxyoKe0FN1avVVf5H8mYYXMCyEedtGafrPb55p5zLttT/5883fef7-3717-4538-97d5-25eb502f3c5e.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1192",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "LgX0y7a50I0VnFlysux4B0xWEeMISDBeGmul4Hh28FHDzjq4Fr",
+        "url": "uploads/2020-11-20/6uM9pJTxyoKe0FN1avVVf5H8mYYXMCyEedtGafrPb55p5zLttT/32468570-72b1-469e-b321-bc152f9f73d9-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "xYwNjUVfCf6rbQtSIfLpEKuktDHkHMtAUJd9IP78XJVEgfzRnH",
+      "url": "uploads/2020-11-20/EoXqQpF5XxLIcpZZVKbiZMXN3gWK6labp1afz3Jttm59381Eqx/b5951731-6bd2-4dd8-ba87-94deb420e415.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "wAW5J1zqubjDZkTsk3q0rskwUZRgRwYCsl2ewdof25AsK2gB9Q",
+          "url": "uploads/2020-11-20/EoXqQpF5XxLIcpZZVKbiZMXN3gWK6labp1afz3Jttm59381Eqx/f57463b4-8d4f-46c4-b318-7fd95f456a79.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1143",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "FjNofcwpCy0F3paxgyY9akBL5l68QuAg9CeCPR0Iu22Jt2bEbm",
+        "url": "uploads/2020-11-20/EoXqQpF5XxLIcpZZVKbiZMXN3gWK6labp1afz3Jttm59381Eqx/16e69868-209e-4194-95dd-3013e798b1ab-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "b20sC0jGHp4wtCj5oulgZlkaY8GkDTs4cNs6Y2K1WX2nElwAfG",
+      "url": "uploads/2020-11-20/GuR8e4qJJ6UgEL9OSuBYgtf1GB5dBHimShbhZtvJI6Cik6OQ3v/d1e7e8ed-1b2d-4dba-97b2-a91d51067f7d.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "4TgG0MR454HBYn9YRcHCfdrLCp5Kz26MKGgQAMNKJ9vz5UbyUW",
+          "url": "uploads/2020-11-20/GuR8e4qJJ6UgEL9OSuBYgtf1GB5dBHimShbhZtvJI6Cik6OQ3v/a90d3769-79b0-4423-b010-c8840441fb9c.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1207",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "au458Ug7rRAHSHPbS81lQLgvTHO9ZuMeuFKuyDjcfN3wUgR85y",
+        "url": "uploads/2020-11-20/GuR8e4qJJ6UgEL9OSuBYgtf1GB5dBHimShbhZtvJI6Cik6OQ3v/f13579cb-57d0-4405-b6e1-b304c4cc91b0-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "U8GCgP1pxq15m6TZAqUmbcvnhkZ3KMK78YMsT5NC9TJ12nnkBs",
+      "url": "uploads/2020-11-20/hPFVjbvgLbWUQF8PtCZSnsKP2Tqj49IL1OConsDWTUFIKuDkuR/15f25e5a-5655-429c-aa8c-b5ccde201ba8.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "ObfSmJfYWOdfNMiKH2TI1rbTsiEJfAeyrW3GlIjdbupaO3C4Z3",
+          "url": "uploads/2020-11-20/hPFVjbvgLbWUQF8PtCZSnsKP2Tqj49IL1OConsDWTUFIKuDkuR/0b855054-f9c8-4355-a0b4-869e0a8ec01d.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1200",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "KgP3k3bjok7ozNUx3N22jvAhnBu2BBUewTGMBQyJq4P0IuwGd1",
+        "url": "uploads/2020-11-20/hPFVjbvgLbWUQF8PtCZSnsKP2Tqj49IL1OConsDWTUFIKuDkuR/0bedb02a-9e2e-40c6-a7a6-d6a9bf99127b-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "j4FH5UkqqD3Ckur2cho2B01S7gnOaodH0mfvp43w3oEwyDfJBf",
+      "url": "uploads/2020-11-20/i8jIdAdlOUK6E8CWez03YZuAbzUWH76wX8s2CcdUzbgbaAKuLR/88f8853f-32d9-4c92-bd51-502737dd639e.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "1ag7A2bDyPQMx5f7AiVCAAoKmAM7EXdoKzY4up4nAxC4qxbe5U",
+          "url": "uploads/2020-11-20/i8jIdAdlOUK6E8CWez03YZuAbzUWH76wX8s2CcdUzbgbaAKuLR/2c95a516-e1af-4391-b1f3-6298468c1011.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1200",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "RTCe861xIeCSpkwHD5qRkGee8TUz7hJI6U2pVBIVz40GTah3zZ",
+        "url": "uploads/2020-11-20/i8jIdAdlOUK6E8CWez03YZuAbzUWH76wX8s2CcdUzbgbaAKuLR/6ab577e4-eecf-4592-b509-1218b5d9011a-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "JxMcVPGXIBqkQc8HZEV2F3yu5aUKpLqq876foK15vDPHACBvor",
+      "url": "uploads/2020-11-20/JDL2tObEfOSBop58yYoiM0XumpSXZFNR4c12qplOYfbyZoVB5T/d8620579-526f-411c-ae96-e79d49b016f0.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "oJ3V7ZFZwkhgizuq7ZAn4YisYLaEerBg9zPWWZIZtRuWBlQJTo",
+          "url": "uploads/2020-11-20/JDL2tObEfOSBop58yYoiM0XumpSXZFNR4c12qplOYfbyZoVB5T/0ab4c560-2652-4f6e-98b0-417c9e8353ff.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1200",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "RzKAkAsqQZBnACCOxCeORvBV9CeEcMze9vCvykUvzGqlA6dW9n",
+        "url": "uploads/2020-11-20/JDL2tObEfOSBop58yYoiM0XumpSXZFNR4c12qplOYfbyZoVB5T/9354dc61-680c-4aaf-b690-540d5a378f21-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "jvq4A0O4A6c3268Z86bgMYUl9Qgi8pmAtRUyZ8UZtLzZWRXVmq",
+      "url": "uploads/2020-11-20/KpEGaVo6NQDJDJeTzTWM1gEUvubiB82uVbsfdBglfh0KILhxEi/3a43ee48-5d56-4bfa-aff2-62c2f9355025.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "v0HXShTOIgWSc97enDSXZinYVXcpfBMdKOTSDVLThUF9ExfKrD",
+          "url": "uploads/2020-11-20/KpEGaVo6NQDJDJeTzTWM1gEUvubiB82uVbsfdBglfh0KILhxEi/d0afcd6c-9fcb-4bce-97d1-4305e20566cb.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x2691",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "W0hmUx804kmXYeTdj1aPb7s4fRHE5b0SocryNq4h0xeNPUn4hx",
+        "url": "uploads/2020-11-20/KpEGaVo6NQDJDJeTzTWM1gEUvubiB82uVbsfdBglfh0KILhxEi/38803964-54a7-4931-a50b-e7123ef00d64-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "hEWpO3zX5VuVZgRc738q0QclfGMZPhimigp7CIq9tc0qSXxQJ7",
+      "url": "uploads/2020-11-20/nTGi6FRsaSquCKwJ1EQ45k0pEy7t0Wjp15cD6Bqhx1RG92XvBX/d9e21be4-3af9-4fc1-aa8f-a8015a40f5e6.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "VnXy0r1PCh6TMcJklPFmL3IkDD91OZSO3UjG5pVkYNPAUkY8XA",
+          "url": "uploads/2020-11-20/nTGi6FRsaSquCKwJ1EQ45k0pEy7t0Wjp15cD6Bqhx1RG92XvBX/09a742a3-60c4-4223-9c90-82b0403a43dc.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x2586",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "o19JXXfazLmfgu5ZF5UhkT1WRIywmrMRIjYAx8clR8qWAViIVU",
+        "url": "uploads/2020-11-20/nTGi6FRsaSquCKwJ1EQ45k0pEy7t0Wjp15cD6Bqhx1RG92XvBX/bb128fe1-1eb5-4686-b54f-8282d632645c-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "mzsfSvksyWNJTHFak1PJPd8IIrSbD61KdfQHkMZRa2a3WhRxzB",
+      "url": "uploads/2020-11-20/O9i3gnZSkRzih3U2hHbf6nBCW7USsLlibJjlp460v9rdRCNNER/8c64db82-6ffb-4db7-bf1a-3538fa9c487f.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "j6Wy8cTXIWTJ4qbUaG0FuZw1N5cviK57TabYXAWtZDNiH3s1tU",
+          "url": "uploads/2020-11-20/O9i3gnZSkRzih3U2hHbf6nBCW7USsLlibJjlp460v9rdRCNNER/28654eef-eb47-4f0e-8df2-f6c949ec714e.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1200",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "TrFgj5SNRrLWtv9lHfkyYhkIB4K1qKgEyt3edaftoMWfFHTjpQ",
+        "url": "uploads/2020-11-20/O9i3gnZSkRzih3U2hHbf6nBCW7USsLlibJjlp460v9rdRCNNER/345abe08-e05f-4728-b91c-b5ae635e30c1-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "7nOzdpJ25jyP8VWbYis7sLTjeNmwP4CAtNr166d9xU5xcZNxON",
+      "url": "uploads/2020-11-20/P9MeeLpNOINzQPmbmwtG5UYjlj0Y9vJ875z7e5XfvUawH35DQP/d64a60dc-af98-4b7c-bb71-b31495e05b0a.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "qGvzSrx7BWjm2fnGoXHIKWRaoJecdTRetG2pfsw1W2XGeCqbpg",
+          "url": "uploads/2020-11-20/P9MeeLpNOINzQPmbmwtG5UYjlj0Y9vJ875z7e5XfvUawH35DQP/243f5856-00a2-4164-b00c-f99cf2324a25.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1196",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "jYziwz1gE4hI2aAu8ZLSlvKDfHJsyaGRUoVvJyY9rhR06xR2O6",
+        "url": "uploads/2020-11-20/P9MeeLpNOINzQPmbmwtG5UYjlj0Y9vJ875z7e5XfvUawH35DQP/87f7200d-466a-4d00-b83e-0af2eb731fdf-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "vPgHXCZYQWfddkmLScJQL4qiyFED1qPvHDAprKSnCaYgFQwBUh",
+      "url": "uploads/2020-11-20/Pd9bsZYc6YFngBYSmf3dgohSYqXgrQu5mBrQxGRzMFKhWTpQ9z/f793cdfb-503c-4231-be7a-ea878b8d52db.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "LyOqZqiBKjdCKrquoCHsGU5YYnCdImBnjcE23G6kpo0pYhWKGP",
+          "url": "uploads/2020-11-20/Pd9bsZYc6YFngBYSmf3dgohSYqXgrQu5mBrQxGRzMFKhWTpQ9z/620f4c19-4db4-4211-855d-4a432dd68a1d.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1198",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "iY4qbNHGKub5fzkU5hDeQlV1aTGvqw7L8a0kq2cPb89hKzOj9c",
+        "url": "uploads/2020-11-20/Pd9bsZYc6YFngBYSmf3dgohSYqXgrQu5mBrQxGRzMFKhWTpQ9z/e0970732-c80c-4a44-aef4-5bb918b8b345-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "O0tGFOqIkiahfTGbJjDRZhmuEhGa1QDr5LebdiyQX9NAXh5FY4",
+      "url": "uploads/2020-11-20/pZE1Bp1varpTqjuAcy8OpMS383JwdIHjId1dNuxDBpgNYJHI9V/db3c323c-d952-45df-9ff6-253783bfffa2.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "wHJncqj5e2GilYe7SyKV6yxAtzmS2yI1oDfj02KxDXintA472Q",
+          "url": "uploads/2020-11-20/pZE1Bp1varpTqjuAcy8OpMS383JwdIHjId1dNuxDBpgNYJHI9V/a0528338-eeed-44d1-92c7-a5ad2b4eb964.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x2700",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "ycthgPSbSscGpikAvoWv3xw1aAawIEN3vSdWsJL9U2dorEa5pw",
+        "url": "uploads/2020-11-20/pZE1Bp1varpTqjuAcy8OpMS383JwdIHjId1dNuxDBpgNYJHI9V/917216fd-de1b-419d-96d4-d9acd1b89a49-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "svhhwUskdcXO1ReTXdmQkIxtLvXn2tyStNhu8HtxfaZkdhN71w",
+      "url": "uploads/2020-11-20/TU1IUYBWRtV1JjaHj6JC1DiYbEd742k4oht3aTgyaLAfKuDN9v/225f380f-5ca3-4b00-b309-c00e96d381f4.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "1VlgszClISc6RNUSugfI2O3DR13Q1uj0BvsOZyuzJcNbsGgQW1",
+          "url": "uploads/2020-11-20/TU1IUYBWRtV1JjaHj6JC1DiYbEd742k4oht3aTgyaLAfKuDN9v/8b04d40e-306d-478d-a162-a58c864b4707.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1200",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "TJ3JbL6I7zAg5piMHZAWU4lI5mdAh1F3nj9JLD14BVcWPjdNnR",
+        "url": "uploads/2020-11-20/TU1IUYBWRtV1JjaHj6JC1DiYbEd742k4oht3aTgyaLAfKuDN9v/6ef9e15f-47a1-4081-b0e6-070e77adb588-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "sBOl66praWKpGox40EDQmVciaiEF7m3kTOS0vr6uXKeFjedMhr",
+      "url": "uploads/2020-11-20/ynU5VosVgaOqkYpk71vqKXCuChDuYKQKlfXfT8r6DerLzCVhjd/9453c0e6-3d1e-41dd-aec4-de12498bef25.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "iy7qc2hJyqYmOW9iuwLrHttB4fqhYmq5TjqAUDG0snzm0DPYpb",
+          "url": "uploads/2020-11-20/ynU5VosVgaOqkYpk71vqKXCuChDuYKQKlfXfT8r6DerLzCVhjd/faa39552-ee0f-4f3e-9358-3f803436c810.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1800x1200",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "NEe7vUvY1wRj1kReIfh92QFa5fvS5EfwFFTxSE2tYhR8EP3YZf",
+        "url": "uploads/2020-11-20/ynU5VosVgaOqkYpk71vqKXCuChDuYKQKlfXfT8r6DerLzCVhjd/11f48531-11c7-4c64-befe-36a046114928-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    }
+  ],
+  "foldersAndFiles": {
+    "limit": 2147483648,
+    "totalSize": 35005328,
+    "folders": [
+      {
+        "folderId": null,
+        "title": "photo by Unsplash",
+        "description": "If you are a multinational company, the process of hiring people is pretty smooth. You post the job description online and, in few days, tons of CVs arrive in your mailbox.\nEasy peasy.\nBut is it really that easy to find the right candidates navigating a sea of similar profiles?\nHere at Friendz we like doing things differently from the ordinary: we go off the grid every time we can. We don’t know whether the motivation for this revolutionary push can be traced back to our young age or to our strong determination, but it had always delivered results. One example? We hired the first employees in a party where, before and after a beer, we tested their skills (we even closed them in an escape room with 60 minutes to find the way out!).\nBut this time we went even bigger.",
+        "sort": 1,
+        "files": [
+          {
+            "gid": "erJX1BL73iXBUGlffrCxPKPh7FzOcUAxbINxjStypn5tmUhMcS",
+            "filename": "anastasiia-tarasova-NYvx-uP85mA-unsplash.jpg",
+            "url": "uploads/2020-11-20/6uM9pJTxyoKe0FN1avVVf5H8mYYXMCyEedtGafrPb55p5zLttT/8c849745-c270-41e4-b730-22cadb3d9cc0.jpg",
+            "status": "finished",
+            "title": "photo by Unsplash",
+            "description": "If you are a multinational company, the process of hiring people is pretty smooth. You post the job description online and, in few days, tons of CVs arrive in your mailbox.\nEasy peasy.\nBut is it really that easy to find the right candidates navigating a sea of similar profiles?\nHere at Friendz we like doing things differently from the ordinary: we go off the grid every time we can. We don’t know whether the motivation for this revolutionary push can be traced back to our young age or to our strong determination, but it had always delivered results. One example? We hired the first employees in a party where, before and after a beer, we tested their skills (we even closed them in an escape room with 60 minutes to find the way out!).\nBut this time we went even bigger.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 1,
+            "folderId": null,
+            "size": "2204674",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": "photo by Unsplash",
+        "description": "We were extremely needing a new resource to enter the Marketing&Sales team, to take care of introducing Friendz to as many clients as possible. In front of us two possibilities: hiring a Junior or a Senior. We were sure that a Junior figure would have adapted to the Friendz mood more easily (but what about the client portfolio?), while a Senior would have done the job better (but what about his classic attitude, so different from ours?). Pros and cons on both sides.",
+        "sort": 2,
+        "files": [
+          {
+            "gid": "jvq4A0O4A6c3268Z86bgMYUl9Qgi8pmAtRUyZ8UZtLzZWRXVmq",
+            "filename": "andreas-dress-FjyVzI8e2XE-unsplash.jpg",
+            "url": "uploads/2020-11-20/KpEGaVo6NQDJDJeTzTWM1gEUvubiB82uVbsfdBglfh0KILhxEi/3a43ee48-5d56-4bfa-aff2-62c2f9355025.jpg",
+            "status": "finished",
+            "title": "photo by Unsplash",
+            "description": "We were extremely needing a new resource to enter the Marketing&Sales team, to take care of introducing Friendz to as many clients as possible. In front of us two possibilities: hiring a Junior or a Senior. We were sure that a Junior figure would have adapted to the Friendz mood more easily (but what about the client portfolio?), while a Senior would have done the job better (but what about his classic attitude, so different from ours?). Pros and cons on both sides.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 2,
+            "folderId": null,
+            "size": "1898462",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": 983,
+        "title": "photo by Unsplash",
+        "description": "Taking a decision seemed impossible. We could have chosen the least bad or…. do things our own way! “Why don’t we hire an entire team? Three juniors who support and encourage each other, who share moments of joy and pain, satisfaction and disillusion, who learn from their own mistakes…” “Amazing, let’s do it!”",
+        "titleConfig": {
+          "size": "normal",
+          "textAlign": "left"
+        },
+        "descriptionConfig": {
+          "size": "small",
+          "textAlign": "left"
+        },
+        "sort": 3,
+        "files": [
+          {
+            "gid": "7nOzdpJ25jyP8VWbYis7sLTjeNmwP4CAtNr166d9xU5xcZNxON",
+            "filename": "toni-reed-K_mkl8sVKm0-unsplash.jpg",
+            "url": "uploads/2020-11-20/P9MeeLpNOINzQPmbmwtG5UYjlj0Y9vJ875z7e5XfvUawH35DQP/d64a60dc-af98-4b7c-bb71-b31495e05b0a.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 1,
+            "folderId": "983",
+            "size": "1567482",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "983",
+              "sort": 3,
+              "title": "photo by Unsplash",
+              "description": "Taking a decision seemed impossible. We could have chosen the least bad or…. do things our own way! “Why don’t we hire an entire team? Three juniors who support and encourage each other, who share moments of joy and pain, satisfaction and disillusion, who learn from their own mistakes…” “Amazing, let’s do it!”",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          },
+          {
+            "gid": "mzsfSvksyWNJTHFak1PJPd8IIrSbD61KdfQHkMZRa2a3WhRxzB",
+            "filename": "peter-muskrat-MLk40_3KhhE-unsplash.jpg",
+            "url": "uploads/2020-11-20/O9i3gnZSkRzih3U2hHbf6nBCW7USsLlibJjlp460v9rdRCNNER/8c64db82-6ffb-4db7-bf1a-3538fa9c487f.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 2,
+            "folderId": "983",
+            "size": "2555214",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "983",
+              "sort": 3,
+              "title": "photo by Unsplash",
+              "description": "Taking a decision seemed impossible. We could have chosen the least bad or…. do things our own way! “Why don’t we hire an entire team? Three juniors who support and encourage each other, who share moments of joy and pain, satisfaction and disillusion, who learn from their own mistakes…” “Amazing, let’s do it!”",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": "photo by Unsplash",
+        "description": "Internship 3x1\nWe posted the job advertisement “Friendz is hiring: internship 3x1, apply with your team!” on Facebook and LinkedIn. It followed a brief explanation of why we decided to recruit this way and how single applicants were eligible too (we would have helped them creating the team later). A detail not to be forgotten: the salary was x3 too!\nWe created a Facebook group where all the 30 fortunate candidates chosen (the applicants were over 400!) were invited and we used the platform for internal communications and organization. What we were going for was investing in motivated people who would have been able to collaborate with us in the long term, not just answering to the moment urgent needs.\nWe invited them in our office for a company presentation: we talked about what we were doing and, especially, how we were doing it. We have also gone through our milestones: from idea generation in one of the co-founder grandmother’s flat to the victory at the Web Marketing Festival in 2015 and the Wind Business Factor in 2016, from the process of creating the users community to all the adventures we lived together that made Friendz that special. At this point it was clear to everyone in the room that what we were offering was not an ordinary job!\n",
+        "sort": 4,
+        "files": [
+          {
+            "gid": "hEWpO3zX5VuVZgRc738q0QclfGMZPhimigp7CIq9tc0qSXxQJ7",
+            "filename": "jared-murray-a0vlGkJsZSM-unsplash.jpg",
+            "url": "uploads/2020-11-20/nTGi6FRsaSquCKwJ1EQ45k0pEy7t0Wjp15cD6Bqhx1RG92XvBX/d9e21be4-3af9-4fc1-aa8f-a8015a40f5e6.jpg",
+            "status": "finished",
+            "title": "photo by Unsplash",
+            "description": "Internship 3x1\nWe posted the job advertisement “Friendz is hiring: internship 3x1, apply with your team!” on Facebook and LinkedIn. It followed a brief explanation of why we decided to recruit this way and how single applicants were eligible too (we would have helped them creating the team later). A detail not to be forgotten: the salary was x3 too!\nWe created a Facebook group where all the 30 fortunate candidates chosen (the applicants were over 400!) were invited and we used the platform for internal communications and organization. What we were going for was investing in motivated people who would have been able to collaborate with us in the long term, not just answering to the moment urgent needs.\nWe invited them in our office for a company presentation: we talked about what we were doing and, especially, how we were doing it. We have also gone through our milestones: from idea generation in one of the co-founder grandmother’s flat to the victory at the Web Marketing Festival in 2015 and the Wind Business Factor in 2016, from the process of creating the users community to all the adventures we lived together that made Friendz that special. At this point it was clear to everyone in the room that what we were offering was not an ordinary job!\n",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 4,
+            "folderId": null,
+            "size": "2588817",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": 984,
+        "title": "photo by Unsplash",
+        "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+        "titleConfig": {
+          "size": "normal",
+          "textAlign": "left"
+        },
+        "descriptionConfig": {
+          "size": "small",
+          "textAlign": "left"
+        },
+        "sort": 5,
+        "files": [
+          {
+            "gid": "b20sC0jGHp4wtCj5oulgZlkaY8GkDTs4cNs6Y2K1WX2nElwAfG",
+            "filename": "pelayo-arbues-FnpwJID8SIc-unsplash.jpg",
+            "url": "uploads/2020-11-20/GuR8e4qJJ6UgEL9OSuBYgtf1GB5dBHimShbhZtvJI6Cik6OQ3v/d1e7e8ed-1b2d-4dba-97b2-a91d51067f7d.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 1,
+            "folderId": "984",
+            "size": "1230904",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "984",
+              "sort": 5,
+              "title": "photo by Unsplash",
+              "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          },
+          {
+            "gid": "j4FH5UkqqD3Ckur2cho2B01S7gnOaodH0mfvp43w3oEwyDfJBf",
+            "filename": "paul-g-NklPCh1m3rs-unsplash.jpg",
+            "url": "uploads/2020-11-20/i8jIdAdlOUK6E8CWez03YZuAbzUWH76wX8s2CcdUzbgbaAKuLR/88f8853f-32d9-4c92-bd51-502737dd639e.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 2,
+            "folderId": "984",
+            "size": "1065489",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "984",
+              "sort": 5,
+              "title": "photo by Unsplash",
+              "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": "photo by Unsplash",
+        "description": "Second Challenge\nIf I ask you what is the most important quality for a salesman, what would you answer? Reaching the clients, probably.\nAnd how better to test this skill if not asking the candidates to find the contact of a famous Italian Youtuber and asking him to register an audio note while repeating some unlikely words (of common use but out of context)?\nNot to be mentioned, the teams also approached this task with an extraordinary degree of creativity: some of the candidates called his mom pretending to be a friend, others reached his girlfriend in front of school, some others directly knocked at his door! While watching the teams structuring their approaches, we were able to identify the people who were the most creative and determined.",
+        "sort": 6,
+        "files": [
+          {
+            "gid": "xYwNjUVfCf6rbQtSIfLpEKuktDHkHMtAUJd9IP78XJVEgfzRnH",
+            "filename": "ann-_qjJPsBOHnk-unsplash.jpg",
+            "url": "uploads/2020-11-20/EoXqQpF5XxLIcpZZVKbiZMXN3gWK6labp1afz3Jttm59381Eqx/b5951731-6bd2-4dd8-ba87-94deb420e415.jpg",
+            "status": "finished",
+            "title": "photo by Unsplash",
+            "description": "Second Challenge\nIf I ask you what is the most important quality for a salesman, what would you answer? Reaching the clients, probably.\nAnd how better to test this skill if not asking the candidates to find the contact of a famous Italian Youtuber and asking him to register an audio note while repeating some unlikely words (of common use but out of context)?\nNot to be mentioned, the teams also approached this task with an extraordinary degree of creativity: some of the candidates called his mom pretending to be a friend, others reached his girlfriend in front of school, some others directly knocked at his door! While watching the teams structuring their approaches, we were able to identify the people who were the most creative and determined.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 6,
+            "folderId": null,
+            "size": "3134375",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": 985,
+        "title": "photo by Unsplash",
+        "description": "We gave each team four days to buy a bike and resell it for the double of the price. They were also asked to film all the steps of their adventure, to prove and explain everything they were doing. The qualities under examination were the creativity of the candidates’ strategy, their determination and, to a lesser extent, the profit. Even if it was possible to read on their faces a mix of fun and concern, it was clear that everybody was completely high as a kite too.",
+        "titleConfig": {
+          "size": "normal",
+          "textAlign": "left"
+        },
+        "descriptionConfig": {
+          "size": "small",
+          "textAlign": "left"
+        },
+        "sort": 7,
+        "files": [
+          {
+            "gid": "kufnZq3FhW60UuTuTC6SENuC88c4IMnLw4cn1TWtTmWvXSp2Zz",
+            "filename": "kristin-wilson-ck8-ChPzgwg-unsplash.jpg",
+            "url": "uploads/2020-11-20/5vDxTcfWXXuoCxf6BfIWcjBkFmQBZefew0LvHOG2N5agPjkbTn/fad1e4f7-e12f-48fd-ac83-9afa543a0e72.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 1,
+            "folderId": "985",
+            "size": "1947837",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "985",
+              "sort": 7,
+              "title": "photo by Unsplash",
+              "description": "We gave each team four days to buy a bike and resell it for the double of the price. They were also asked to film all the steps of their adventure, to prove and explain everything they were doing. The qualities under examination were the creativity of the candidates’ strategy, their determination and, to a lesser extent, the profit. Even if it was possible to read on their faces a mix of fun and concern, it was clear that everybody was completely high as a kite too.",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          },
+          {
+            "gid": "U8GCgP1pxq15m6TZAqUmbcvnhkZ3KMK78YMsT5NC9TJ12nnkBs",
+            "filename": "maarten-van-den-heuvel-oDS7RshYjbI-unsplash.jpg",
+            "url": "uploads/2020-11-20/hPFVjbvgLbWUQF8PtCZSnsKP2Tqj49IL1OConsDWTUFIKuDkuR/15f25e5a-5655-429c-aa8c-b5ccde201ba8.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 2,
+            "folderId": "985",
+            "size": "5556569",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "985",
+              "sort": 7,
+              "title": "photo by Unsplash",
+              "description": "We gave each team four days to buy a bike and resell it for the double of the price. They were also asked to film all the steps of their adventure, to prove and explain everything they were doing. The qualities under examination were the creativity of the candidates’ strategy, their determination and, to a lesser extent, the profit. Even if it was possible to read on their faces a mix of fun and concern, it was clear that everybody was completely high as a kite too.",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          },
+          {
+            "gid": "sBOl66praWKpGox40EDQmVciaiEF7m3kTOS0vr6uXKeFjedMhr",
+            "filename": "michal-parzuchowski-wZ3nCXnyJQ8-unsplash.jpg",
+            "url": "uploads/2020-11-20/ynU5VosVgaOqkYpk71vqKXCuChDuYKQKlfXfT8r6DerLzCVhjd/9453c0e6-3d1e-41dd-aec4-de12498bef25.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 3,
+            "folderId": "985",
+            "size": "2467380",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "985",
+              "sort": 7,
+              "title": "photo by Unsplash",
+              "description": "We gave each team four days to buy a bike and resell it for the double of the price. They were also asked to film all the steps of their adventure, to prove and explain everything they were doing. The qualities under examination were the creativity of the candidates’ strategy, their determination and, to a lesser extent, the profit. Even if it was possible to read on their faces a mix of fun and concern, it was clear that everybody was completely high as a kite too.",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "folderId": 986,
+        "title": "photo by Unsplash",
+        "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+        "titleConfig": {
+          "size": "normal",
+          "textAlign": "left"
+        },
+        "descriptionConfig": {
+          "size": "small",
+          "textAlign": "left"
+        },
+        "sort": 8,
+        "files": [
+          {
+            "gid": "O0tGFOqIkiahfTGbJjDRZhmuEhGa1QDr5LebdiyQX9NAXh5FY4",
+            "filename": "godwill-gira-mude-fxUr0EgZfW0-unsplash.jpg",
+            "url": "uploads/2020-11-20/pZE1Bp1varpTqjuAcy8OpMS383JwdIHjId1dNuxDBpgNYJHI9V/db3c323c-d952-45df-9ff6-253783bfffa2.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 1,
+            "folderId": "986",
+            "size": "2488717",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "986",
+              "sort": 8,
+              "title": "photo by Unsplash",
+              "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          },
+          {
+            "gid": "JxMcVPGXIBqkQc8HZEV2F3yu5aUKpLqq876foK15vDPHACBvor",
+            "filename": "clay-banks-6lcqqJvZmGM-unsplash.jpg",
+            "url": "uploads/2020-11-20/JDL2tObEfOSBop58yYoiM0XumpSXZFNR4c12qplOYfbyZoVB5T/d8620579-526f-411c-ae96-e79d49b016f0.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 2,
+            "folderId": "986",
+            "size": "1045135",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "986",
+              "sort": 8,
+              "title": "photo by Unsplash",
+              "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          },
+          {
+            "gid": "svhhwUskdcXO1ReTXdmQkIxtLvXn2tyStNhu8HtxfaZkdhN71w",
+            "filename": "eddie-junior-LbspFN-1YK0-unsplash.jpg",
+            "url": "uploads/2020-11-20/TU1IUYBWRtV1JjaHj6JC1DiYbEd742k4oht3aTgyaLAfKuDN9v/225f380f-5ca3-4b00-b309-c00e96d381f4.jpg",
+            "status": "finished",
+            "title": null,
+            "description": null,
+            "titleConfig": null,
+            "descriptionConfig": null,
+            "sort": 3,
+            "folderId": "986",
+            "size": "2673324",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": {
+              "id": "986",
+              "sort": 8,
+              "title": "photo by Unsplash",
+              "description": "The results were just amazing! From who organized a lottery spin in front of universities, who customized a bike for special florist deliveries, who collected money for the parish. If you think to have heard it all, imagine our surprise when we watched the videos they made: one more incredible than the other, a tangible proof that they were on the same page with Friendz mood and ready to embrace it!",
+              "titleConfig": {
+                "size": "normal",
+                "textAlign": "left"
+              },
+              "descriptionConfig": {
+                "size": "small",
+                "textAlign": "left"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": "photo by Unsplash",
+        "description": "First Challenge\nIn “The Wolf of Wall Street” Leonardo di Caprio asks a room full of salesmen at a seminar to sell him a pen.\nGood one, but we needed something fancier.\nWe gave each team four days to buy a bike and resell it for the double of the price. They were also asked to film all the steps of their adventure, to prove and explain everything they were doing. The qualities under examination were the creativity of the candidates’ strategy, their determination and, to a lesser extent, the profit. Even if it was possible to read on their faces a mix of fun and concern, it was clear that everybody was completely high as a kite too.",
+        "sort": 9,
+        "files": [
+          {
+            "gid": "vPgHXCZYQWfddkmLScJQL4qiyFED1qPvHDAprKSnCaYgFQwBUh",
+            "filename": "pascal-muller-ZG9pFLCKkXA-unsplash.jpg",
+            "url": "uploads/2020-11-20/Pd9bsZYc6YFngBYSmf3dgohSYqXgrQu5mBrQxGRzMFKhWTpQ9z/f793cdfb-503c-4231-be7a-ea878b8d52db.jpg",
+            "status": "finished",
+            "title": "photo by Unsplash",
+            "description": "First Challenge\nIn “The Wolf of Wall Street” Leonardo di Caprio asks a room full of salesmen at a seminar to sell him a pen.\nGood one, but we needed something fancier.\nWe gave each team four days to buy a bike and resell it for the double of the price. They were also asked to film all the steps of their adventure, to prove and explain everything they were doing. The qualities under examination were the creativity of the candidates’ strategy, their determination and, to a lesser extent, the profit. Even if it was possible to read on their faces a mix of fun and concern, it was clear that everybody was completely high as a kite too.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 9,
+            "folderId": null,
+            "size": "2580949",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      }
+    ]
+  }
+}

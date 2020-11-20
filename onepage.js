@@ -81,7 +81,7 @@
     img.src = url;
     imageDiv.appendChild(img);
     return imageDiv;
-  }
+  };
 
   /**
    * Create main sections with content. In our case with IMG only;
@@ -139,7 +139,7 @@
     elements.forEach(el => {
       rootContainer.appendChild(el);
     });
-  }
+  };
 
   const loadContent = (projectId, callback) => {
     const xmlHttp = new XMLHttpRequest();
@@ -199,5 +199,5 @@
       render,
       init,
     }
-  }
+  };
 }(window));

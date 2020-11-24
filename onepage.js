@@ -17,6 +17,8 @@
 
   const ONE_PAGE_PLUGIN_MESSAGE_PREFIX = 'OnePage plugin';
 
+  const LOGO_SVG = 'https://telex.onepage.space/app_logo_white.svg';
+
   /**
    * Styles
    */
@@ -40,12 +42,33 @@
       margin-right: 20px;
     }
     p.one-page-plugin-folder-title {
-      font-size: small;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
       text-transform: uppercase;
     }
     p.one-page-plugin-folder-description {
-      margin-top: 10px;
+      font-family: 'Inter', sans-serif;
+      margin-top: 18px;
       margin-bottom: 5px;
+      line-height: 1.5;
+    }
+    .one-page-plugin-logo-image {
+      width: 95px;
+    }
+    .one-page-plugin-logo-text {
+      font-size: 10px;
+      margin-right: 5px;
+      vertical-align: text-top;
+    }
+    .one-page-plugin-logo-top {
+      border-bottom: 1px solid #9c9c9c;
+      margin-bottom: 21px;
+      padding-bottom: 2px;
+    }
+    .one-page-plugin-logo-bottom {
+      border-top: 1px solid #9c9c9c;
+      margin-bottom: 21px;
+      padding-top: 2px;
     }`;
 
   /**
@@ -129,16 +152,47 @@
   };
 
   const appendStyles = () => {
+    // Append Inter font
+    const fontHost = document.createElement('link');
+    fontHost.setAttribute('rel', 'preconnect');
+    document.head.appendChild(fontHost);
+
+    const font = document.createElement('link');
+    font.setAttribute('rel', 'stylesheet');
+    font.setAttribute('type', 'text/css');
+    font.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+    document.head.appendChild(font);
+
     const styleSheet = document.createElement('style');
     styleSheet.appendChild(document.createTextNode(ONE_PAGE_PLUGIN_STYLES));
     document.head.appendChild(styleSheet);
   };
 
+  const createLogoSection = (className) => {
+    const logoContainer = document.createElement('div');
+    logoContainer.className = className;
+    const logo = document.createElement('img');
+    logo.className = 'one-page-plugin-logo-image';
+    logo.src = LOGO_SVG;
+
+    const logoText = document.createElement('span');
+    logoText.className = 'one-page-plugin-logo-text'
+    logoText.innerText = 'Powered by:';
+
+    logoContainer.appendChild(logoText);
+    logoContainer.appendChild(logo);
+    return logoContainer;
+  }
+
   const appendElements = (rootContainer, renderingData) => {
+    // Create Header logo block;
+    rootContainer.appendChild(createLogoSection('one-page-plugin-logo-top'));
     const elements = prepareFolderAndFiles(renderingData);
     elements.forEach(el => {
       rootContainer.appendChild(el);
     });
+    // Create Footer logo block;
+    rootContainer.appendChild(createLogoSection('one-page-plugin-logo-bottom'));
   };
 
   const loadContent = (projectId, callback) => {
@@ -199,5 +253,5 @@
       render,
       init,
     }
-  };
+  }
 }(window));

@@ -33,7 +33,6 @@
       align-items: center;
       justify-content: space-between;
       flex-flow: nowrap;
-      padding: 0 15px;
     }
     .one-page-plugin-folder-image {
       object-fit: cover;

@@ -16,8 +16,8 @@
   };
 
   const ONE_PAGE_PLUGIN_MESSAGE_PREFIX = 'OnePage plugin';
-
   const LOGO_SVG = 'https://telex.onepage.space/app_logo_white.svg';
+  const ONE_PAGE_LINK = 'https://onepage.space/';
 
   /**
    * Styles
@@ -56,19 +56,26 @@
       width: 95px;
     }
     .one-page-plugin-logo-text {
+      font-family: 'Inter', sans-serif;
       font-size: 10px;
       margin-right: 5px;
-      vertical-align: text-top;
+      margin-bottom: 4px;
     }
     .one-page-plugin-logo-top {
       border-bottom: 1px solid #9c9c9c;
       margin-bottom: 21px;
       padding-bottom: 2px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
     }
     .one-page-plugin-logo-bottom {
       border-top: 1px solid #9c9c9c;
       margin-bottom: 21px;
       padding-top: 2px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
     }`;
 
   /**
@@ -171,16 +178,23 @@
   const createLogoSection = (className) => {
     const logoContainer = document.createElement('div');
     logoContainer.className = className;
+
+    const logoLink = document.createElement('a');
+    logoLink.href = ONE_PAGE_LINK;
+    logoLink.target = '_blank';
+
     const logo = document.createElement('img');
     logo.className = 'one-page-plugin-logo-image';
     logo.src = LOGO_SVG;
+
+    logoLink.appendChild(logo);
 
     const logoText = document.createElement('span');
     logoText.className = 'one-page-plugin-logo-text'
     logoText.innerText = 'Powered by:';
 
     logoContainer.appendChild(logoText);
-    logoContainer.appendChild(logo);
+    logoContainer.appendChild(logoLink);
     return logoContainer;
   }
 

@@ -1,0 +1,260 @@
+{
+  "project": {
+    "gid": "AyzoGrk3zh7x",
+    "allowComments": true,
+    "allowDownload": false,
+    "settings": "{\"titleConfig\":{\"size\":\"big\",\"textAlign\":\"center\"},\"theme\":\"dark\",\"font\":\"OpenSans\",\"logoConfig\":{\"align\":\"center\"},\"title\":\"Ő maga volt a 20. század - Test\\n\",\"logoUrl\":null,\"coverImageUrl\":null}",
+    "owner": {
+      "id": "355",
+      "role": "VIP"
+    }
+  },
+  "files": [
+    {
+      "gid": "0yyVqsZBu4lIm2VpPCzvwwA440mVQ78yCNiH08P3pFmzt90pmg",
+      "url": "uploads/2020-11-25/gnrtoa4nW7wZlROPRij8hVVcpwM7lbvDPA1JfFaGRnzDiyYmof/b0f0f0a2-83ef-4ff8-9a81-1d447299b16e.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "HIGq9TUabvu9VT7bBat7MQPEG18namUYNnRcKiWuGveqScCweu",
+          "url": "uploads/2020-11-25/gnrtoa4nW7wZlROPRij8hVVcpwM7lbvDPA1JfFaGRnzDiyYmof/d2889ce8-1056-451e-b098-62a62cd6125c.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "837x1152",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "bgdZiGu6dW1z4VektUxDYFdw1ydEVjYOVTGjKVQm6amicbBgoy",
+        "url": "uploads/2020-11-25/gnrtoa4nW7wZlROPRij8hVVcpwM7lbvDPA1JfFaGRnzDiyYmof/89c023d5-d5c0-466d-aede-6e01c7a363a4-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "ZQ8Jz1zh7vZDU9CuL5nzDj0QnOLVxxIWWqjMx2Wq2B5HOU8SCf",
+      "url": "uploads/2020-11-25/O0JxKRSMBB5NVrETzVOBIe5XzKFe24duKJFNttEtOuH5E8BkdZ/ff9671c4-4f0c-4a17-9afc-784dd60e0801.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "lnZ5zZZCr6sXN7Zrjhdnl9D202M56sUepneDscD49t0AdANmyz",
+          "url": "uploads/2020-11-25/O0JxKRSMBB5NVrETzVOBIe5XzKFe24duKJFNttEtOuH5E8BkdZ/1eb48609-6e6a-4c48-9e28-7f03386cd47d.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "771x1152",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "kzmHquaI4jEgwP1iHq3XHsAtYduUKNWBfX6IObQz8tcoLlQYlL",
+        "url": "uploads/2020-11-25/O0JxKRSMBB5NVrETzVOBIe5XzKFe24duKJFNttEtOuH5E8BkdZ/f6b616d7-1b1e-41ab-a2a3-dbed71fc1f54-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "vvQm8gk0yretWSqRYht3UUQdHMSvmY9DvtyKvDOVEYtZWlCYOW",
+      "url": "uploads/2020-11-25/UciUgBysVQbadLBqddvEHWGxT6nXRkvCZqzH6zSPyquPu31jIa/f9393241-c9b8-444c-8ab1-c506ae03cac7.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "yVRuP4SiubUYffS4eA7bTSQaQdHtne1IFRHDhrN4CgF1s9pCko",
+          "url": "uploads/2020-11-25/UciUgBysVQbadLBqddvEHWGxT6nXRkvCZqzH6zSPyquPu31jIa/7386d2d4-1068-4d47-b5fa-4faaa1f995e0.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "1280x995",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "cKAS7XYdgidNaqaooODhnYEcdved5wQuIY8Eiwtw5cy8A9VMwy",
+        "url": "uploads/2020-11-25/UciUgBysVQbadLBqddvEHWGxT6nXRkvCZqzH6zSPyquPu31jIa/c1aaffba-de28-460a-8965-a33b0fb0d88a-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    },
+    {
+      "gid": "EXUDDhoovefbNswJZVBWbhR2ZPcRD9jdUiNemWcDtsRA3zpOkI",
+      "url": "uploads/2020-11-25/wCymBaYqt8abAnDepoRvEFxNRcfMOS3oWnz5EaXHvIecnDoBw1/1614aad1-e3f9-4a4a-a8d1-19ca812f87c3.jpg",
+      "status": "finished",
+      "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+      "resolution": null,
+      "fileType": "image",
+      "children": [
+        {
+          "gid": "ghEQWpEjCgLR3D4Os1jhiZfT99ykB12LffIvJCc3BlrrgnrMnd",
+          "url": "uploads/2020-11-25/wCymBaYqt8abAnDepoRvEFxNRcfMOS3oWnz5EaXHvIecnDoBw1/08cbb92d-e22e-435e-8dc6-079e999980e6.jpg-converted.jpg",
+          "status": "finished",
+          "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+          "resolution": "858x1152",
+          "fileType": "image",
+          "fileKind": "converted",
+          "comments": []
+        }
+      ],
+      "thumbnailImage": {
+        "gid": "Ku7MjkGb6qqSqEmsgMRUexrlAW3B1xhhlcigDYKe1w9WVrxnIM",
+        "url": "uploads/2020-11-25/wCymBaYqt8abAnDepoRvEFxNRcfMOS3oWnz5EaXHvIecnDoBw1/0d012299-bba4-4efb-9698-462f3e005c45-thumbnail.jpg",
+        "status": "finished",
+        "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+        "fileType": "image",
+        "fileKind": "thumbnail"
+      },
+      "previewImage": null,
+      "comments": []
+    }
+  ],
+  "foldersAndFiles": {
+    "limit": 2147483648,
+    "totalSize": 1236952,
+    "folders": [
+      {
+        "folderId": null,
+        "title": null,
+        "description": "Elizabeth Bowes-Lyon skót főnemesi családba született, Lord Glamis kilencedik gyermekeként. Apai ágon a Lyon család a 14. századig tudta visszavezetni a családfáját, anyai ágon az egyik ükapja brit miniszterelnök volt. Elizabeth a soktornyú, középkori Glamis kastélyban nőtt fel a Skót-felföldön, és annyira szerette ezt a vidéket, hogy amikor 1952-ben megözvegyült, vett egy gyerekkori otthonához nagyon hasonló, elhagyatott középkori házat Skócia északi peremén.",
+        "sort": 1,
+        "files": [
+          {
+            "gid": "EXUDDhoovefbNswJZVBWbhR2ZPcRD9jdUiNemWcDtsRA3zpOkI",
+            "filename": "testTest1.jpg",
+            "url": "uploads/2020-11-25/wCymBaYqt8abAnDepoRvEFxNRcfMOS3oWnz5EaXHvIecnDoBw1/1614aad1-e3f9-4a4a-a8d1-19ca812f87c3.jpg",
+            "status": "finished",
+            "title": null,
+            "description": "Elizabeth Bowes-Lyon skót főnemesi családba született, Lord Glamis kilencedik gyermekeként. Apai ágon a Lyon család a 14. századig tudta visszavezetni a családfáját, anyai ágon az egyik ükapja brit miniszterelnök volt. Elizabeth a soktornyú, középkori Glamis kastélyban nőtt fel a Skót-felföldön, és annyira szerette ezt a vidéket, hogy amikor 1952-ben megözvegyült, vett egy gyerekkori otthonához nagyon hasonló, elhagyatott középkori házat Skócia északi peremén.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 1,
+            "folderId": null,
+            "size": "263909",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": null,
+        "description": "A fiatal arisztokrata lány huszonegy éves volt, amikor megismerkedett V. György király kisebbik fiával, Albert yorki herceggel. Bertie-t - ahogy a családban nevezték - az öröklési sorban megelőzte bátyja, a wales-i herceg, ezért senki nem gondolta volna, hogy valaha király lesz, de Elizabeth tartott a hercegnéi ranggal járó kötöttségektől. Bertie azonban kitartó volt, és a többszöri visszautasítás ellenére két évig udvarolt neki, míg Elizabeth 1923-ban végre igent mondott. Az ilyen szerelmi házasság akkoriban szokatlan volt az uralkodóházakban, az első világháborúig a brit királyi hercegek általában külföldi hercegnőket vettek feleségül. A yorki hercegi pár első kislánya, Erzsébet 1926. április 21-én született, a fénykép májusban készült.",
+        "sort": 2,
+        "files": [
+          {
+            "gid": "ZQ8Jz1zh7vZDU9CuL5nzDj0QnOLVxxIWWqjMx2Wq2B5HOU8SCf",
+            "filename": "testTest2.jpg",
+            "url": "uploads/2020-11-25/O0JxKRSMBB5NVrETzVOBIe5XzKFe24duKJFNttEtOuH5E8BkdZ/ff9671c4-4f0c-4a17-9afc-784dd60e0801.jpg",
+            "status": "finished",
+            "title": null,
+            "description": "A fiatal arisztokrata lány huszonegy éves volt, amikor megismerkedett V. György király kisebbik fiával, Albert yorki herceggel. Bertie-t - ahogy a családban nevezték - az öröklési sorban megelőzte bátyja, a wales-i herceg, ezért senki nem gondolta volna, hogy valaha király lesz, de Elizabeth tartott a hercegnéi ranggal járó kötöttségektől. Bertie azonban kitartó volt, és a többszöri visszautasítás ellenére két évig udvarolt neki, míg Elizabeth 1923-ban végre igent mondott. Az ilyen szerelmi házasság akkoriban szokatlan volt az uralkodóházakban, az első világháborúig a brit királyi hercegek általában külföldi hercegnőket vettek feleségül. A yorki hercegi pár első kislánya, Erzsébet 1926. április 21-én született, a fénykép májusban készült.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 2,
+            "folderId": null,
+            "size": "240618",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": null,
+        "description": "Erzsébet yorki hercegné és lányai érkezése a londoni Olympia kiállítási csarnokba a Royal Tournament katonai felvonulásra és ünnepélyre 1935-ben. A hercegi pár szeretetteljes, meleg családi életet élt szinte magánemberként, de egy évvel később, 1936 végén olyan felelősség szakadt rájuk, amire egyikük sem vágyott: Bertie bátyja egy elvált amerikai nővel folytatott, botrányos viszonya miatt kénytelen volt lemondani a trónról, és a hercegből VI. György néven a világ egyötödét magában foglaló Brit Birodalom uralkodója lett.",
+        "sort": 3,
+        "files": [
+          {
+            "gid": "0yyVqsZBu4lIm2VpPCzvwwA440mVQ78yCNiH08P3pFmzt90pmg",
+            "filename": "testTest3.jpg",
+            "url": "uploads/2020-11-25/gnrtoa4nW7wZlROPRij8hVVcpwM7lbvDPA1JfFaGRnzDiyYmof/b0f0f0a2-83ef-4ff8-9a81-1d447299b16e.jpg",
+            "status": "finished",
+            "title": null,
+            "description": "Erzsébet yorki hercegné és lányai érkezése a londoni Olympia kiállítási csarnokba a Royal Tournament katonai felvonulásra és ünnepélyre 1935-ben. A hercegi pár szeretetteljes, meleg családi életet élt szinte magánemberként, de egy évvel később, 1936 végén olyan felelősség szakadt rájuk, amire egyikük sem vágyott: Bertie bátyja egy elvált amerikai nővel folytatott, botrányos viszonya miatt kénytelen volt lemondani a trónról, és a hercegből VI. György néven a világ egyötödét magában foglaló Brit Birodalom uralkodója lett.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 3,
+            "folderId": null,
+            "size": "280033",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      },
+      {
+        "folderId": null,
+        "title": null,
+        "description": "György király és Erzsébet királyné 1941. február 14-én Salfordban megtekintik a német bombázás okozta pusztítást. A királyi pár az ellenállás szimbóluma lett, miután Hitler 1940 őszén légiháborút indított Nagy-Britannia ellen, és a Luftwaffe terrorbombázásokkal sújtotta a brit városokat. A kormány azt tanácsolta, hogy hagyják el Londont, vagy legalább a gyerekeket küldjék el a biztonságos Kanadába, de Erzsébet ezt határozottan visszautasította.",
+        "sort": 4,
+        "files": [
+          {
+            "gid": "vvQm8gk0yretWSqRYht3UUQdHMSvmY9DvtyKvDOVEYtZWlCYOW",
+            "filename": "testTest4.jpg",
+            "url": "uploads/2020-11-25/UciUgBysVQbadLBqddvEHWGxT6nXRkvCZqzH6zSPyquPu31jIa/f9393241-c9b8-444c-8ab1-c506ae03cac7.jpg",
+            "status": "finished",
+            "title": null,
+            "description": "György király és Erzsébet királyné 1941. február 14-én Salfordban megtekintik a német bombázás okozta pusztítást. A királyi pár az ellenállás szimbóluma lett, miután Hitler 1940 őszén légiháborút indított Nagy-Britannia ellen, és a Luftwaffe terrorbombázásokkal sújtotta a brit városokat. A kormány azt tanácsolta, hogy hagyják el Londont, vagy legalább a gyerekeket küldjék el a biztonságos Kanadába, de Erzsébet ezt határozottan visszautasította.",
+            "titleConfig": {
+              "size": "normal",
+              "textAlign": "left"
+            },
+            "descriptionConfig": {
+              "size": "small",
+              "textAlign": "left"
+            },
+            "sort": 4,
+            "folderId": null,
+            "size": "452392",
+            "bucketRegionPrefix": "eu-central-1/onepage-prod-eu",
+            "fileType": "image",
+            "folder": null
+          }
+        ]
+      }
+    ]
+  }
+}

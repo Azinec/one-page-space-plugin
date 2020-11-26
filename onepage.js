@@ -56,19 +56,26 @@
       width: 95px;
     }
     .one-page-plugin-logo-text {
+      font-family: 'Inter', sans-serif;
       font-size: 10px;
       margin-right: 5px;
-      vertical-align: text-top;
+      margin-bottom: 4px;
     }
     .one-page-plugin-logo-top {
       border-bottom: 1px solid #9c9c9c;
       margin-bottom: 21px;
       padding-bottom: 2px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
     }
     .one-page-plugin-logo-bottom {
       border-top: 1px solid #9c9c9c;
       margin-bottom: 21px;
       padding-top: 2px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
     }`;
 
   /**
